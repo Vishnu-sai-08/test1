@@ -1,0 +1,88 @@
+{% extends "eve1.html "%}
+
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .jumbotron {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .team-member {
+            margin-bottom: 30px;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .team-member h5 {
+            margin-top: 15px;
+            font-size: 1.25rem;
+        }
+
+        .team-member p {
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">About Us</h1>
+        <p class="lead">Learn more about our mission and our dedicated team.</p>
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to provide excellent service and to foster a community of innovation and growth. We strive to make a positive impact through our dedicated efforts and commitment to excellence.
+            </p>
+        </section>
+
+        <!-- <section class="mt-5">
+            <h2>Meet the Team</h2>
+            <div class="row">
+                <div class="col-md-4 team-member text-center">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 1">
+                    <h5>Vishnu Sai</h5>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="col-md-4 team-member text-center">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h5>Jane Smith</h5>
+                    <p>Chief Operating Officer</p>
+                </div>
+                <div class="col-md-4 team-member text-center">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 3">
+                    <h5>Sam Brown</h5>
+                    <p>Chief Technology Officer</p>
+                </div>
+            </div> -->
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+    </script>
+</body>
+</html>
+
+{% endblock %}
